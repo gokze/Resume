@@ -1,0 +1,26 @@
+.mothercontainer{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.container1{
+    position: absolute;
+    top: 350px;
+    left: 700px;
+    color: white; /* Text color */
+    text-align: center; /* Center text */
+    padding: 20px; /* Space around text */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    border-radius: 10px; /* Optional: Rounded corners */
+    font-style: italic;
+}
+.myphoto{
+    position:absolute;
+    top:875px;
+    left:900px;
+}
+.button2{
+    background-color: black;
+}
